@@ -27,8 +27,8 @@ CORONAVIRUS 2019 TRACKER 🦠
 ---
 ---
 
->## Everyone must stay at home to help stop coronavirus (COVID-19) spreading.🧍🏠  
+>Everyone must stay at home to help stop coronavirus (COVID-19) spreading.🧍🏠  
 
->## Wash your hands with soap and water often to reduce the risk of infection. 🧼🖐  
+>Wash your hands with soap and water often to reduce the risk of infection. 🧼🖐  
 
->## Together we can beat it! 💪
+>Together we can beat it! 💪
