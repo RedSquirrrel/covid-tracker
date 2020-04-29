@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(112.72013189013455deg, rgba(2, 27, 62,1) 4.927083333333334%,rgba(81, 119, 149,1) 97.84374999999999%);
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.global-container {    
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.apiInfo {
+  text-align: center;
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+
+.global-container h4 {
+  font-size: 1.8rem; 
+  color: #b4afaf;  
+  margin-bottom: 1rem;
+}
+
+.map-container {
+  display: block;
+  width: 95%;
+  height: 700px; 
+  padding: 1rem;
+  margin: 0 auto;  
+}
+
+#covidMap {
+  display: block;  
+  margin: 0 auto;  
+  border-radius: 10px;  
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  background-color: rgb(255, 14, 14) ;
+  border: none;
+}
+
+.icon-marker {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 4em;
+  height: 4em;
+  font-size: .7em;
+  font-weight: bold;
+  background-color: rgb(216, 13, 13);
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.icon-marker:hover .icon-marker-tooltip {
+  display: block;
+}
+
+.icon-marker-tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  width: 16em;
+  font-size: 1.4em;
+  padding: 1em;
+  background-color: rgb(31, 77, 114);
+  border-radius: .4em;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.icon-marker-tooltip::before {
+  display: block;
+  position: absolute;
+  bottom: -.6em;
+  left: 50%;
+  content: '';
+  width: 1.4em;
+  height: 1.4em;
+  background-color: rgb(31, 77, 114);
+  transform: rotate(45deg);
+  margin-left: -.7em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.2;
+  margin-bottom: .1em;
+  margin-top: 0;
+}
+
+ul {
+  font-weight: normal;
+  list-style: none;
+  padding: 0;
+  margin: .6em 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-container{
+   margin-bottom: 5rem;
+   margin-left: 7rem; 
+   position: relative;
+}
+
+.btn {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+ }
+
+.fa-arrow-alt-circle-left {  
+  font-size: 3rem;  
+}
+
+.btn:hover {
+  color: rgba(49, 131, 207, 0.842);
+}
+
+@media (max-width: 800px) {
+  body {
+    overflow: auto;
+  }
+  .global-container {
+    display: block;
+    margin: 1rem;   
+  }
+  .global-container h4{
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .apiInfo{
+    font-size: 1rem;
+    display: inline-block;    
+  }
+
+  .flex {
+    margin-bottom: 1rem;
+  }
+
+  .map-container {
+    width: 85%;
+    height: 500px; 
+    background-color: aliceblue;
+  }
+  .btn-container{    
+    display: block;
+   text-align: center;
+    margin: 25px auto ;  
+  }    
+}
