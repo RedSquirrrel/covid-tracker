@@ -32,3 +32,4 @@ CORONAVIRUS 2019 TRACKER 🦠
 >Wash your hands with soap and water often to reduce the risk of infection. 🧼🖐  
 
 >Together we can beat it! 💪
+Ha Ha
